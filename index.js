@@ -15,8 +15,8 @@ function happyHolidayTo(holiday, name){
 
 happyHolidayTo("easter", "helga");
 
-function holidayCountDown(holiday, days){
+function holidayCountdown(holiday, days){
   return "It\'s " + days + " days until " + holiday +"!";
 }
 
-holidayCountDown("easter", 5)
+holidayCountdown("easter", 5)
