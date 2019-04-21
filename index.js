@@ -10,9 +10,9 @@ function happyHolidaysTo(name) {
   happyHolidaysTo("Helga");
 
   function happyHolidayTo(holiday, name){
-    return "Happy" + holiday + name + "!"
+    return "Happy  " + holiday + name + "!"
   }
-  happyHolidayTo("easter, helga");
+  happyHolidayTo("easter", "helga");
 
   function holidayCountDown(holiday, days){
     return "It\'s " + days + " days until " + holiday +"!";
