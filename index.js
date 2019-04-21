@@ -4,19 +4,19 @@ function happyHolidays(){
 }
 
 function happyHolidaysTo(name) {
-    return "Happy holidays, " + name + "!";
-  }
+  return "Happy holidays, " + name + "!";
+}
 
-  happyHolidaysTo("Helga");
+happyHolidaysTo("Helga");
 
-  function happyHolidayTo(holiday, name){
-    return "Happy " + holiday + ", " + name + "!"
-  }
-  
-  happyHolidayTo("easter", "helga");
+function happyHolidayTo(holiday, name){
+  return "Happy " + holiday + ", " + name + "!"
+}
 
-  function holidayCountDown(holiday, days){
-    return "It\'s " + days + " days until " + holiday +"!";
-  }
+happyHolidayTo("easter", "helga");
 
-  holidayCountDown("easter", 5)
+function holidayCountDown(holiday, days){
+  return "It\'s " + days + " days until " + holiday +"!";
+}
+
+holidayCountDown("easter", 5)
